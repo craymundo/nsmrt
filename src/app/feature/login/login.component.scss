@@ -1,0 +1,147 @@
+.mat-toolbar {
+  background: #b30011;
+  color: #fff;
+  height: 72px;
+}
+.main-content {
+  width: 70%;
+  display: flex;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.container-fluid {
+  margin: auto;
+}
+.company__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+  .main-content {
+    width: 90%;
+  }
+  .company__info {
+    display: none;
+  }
+}
+@media screen and (min-width: 642px) and (max-width: 800px) {
+  .main-content {
+    width: 70%;
+  }
+}
+
+.login_form {
+  background-color: #fff;
+  padding: 43px 53px;
+}
+
+.login_form > div {
+  border: 1px solid #edf0f4;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  padding: 16px 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+/* 
+.mat-input-wrapper {
+    background: gray;
+}
+
+mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgba(0,0,0,.04);
+}
+
+::ng-deep mat-form-field {
+    color: white!important;
+  }
+  
+  ::ng-deep mat-form-field  .mat-form-field-label {
+    color: white!important;
+  }
+  
+  ::ng-deep mat-form-field .mat-form-field-underline {
+    background-color: #868686!important;
+  }
+  
+  ::ng-deep mat-form-field .mat-input-element {
+    caret-color: #157cfc!important;
+  }
+  
+  ::ng-deep mat-form-field .mat-form-field-ripple {
+    background-color: #157cfc!important;
+  }
+ */
+.form__input {
+  width: 100%;
+  border: 0px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 1em 0.5em 0.5em;
+  padding-left: 2em;
+  outline: none;
+  margin: 1.5em auto;
+  transition: all 0.5s ease;
+}
+.form__input:focus {
+
+  border-radius: 4px;
+}
+.btn {
+  transition: all 0.5s ease;
+  width: 70%;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #fff;
+  border: 1px solid #2D88FF;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #2D88FF;
+  color: #fff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 32px 32px;
+  text-align: center;
+  background-color: #2f3031;
+  height: 122px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer p {
+  margin: 0 0 8px;
+  height: 14px;
+}
+
+form {
+    padding: 0;
+}
+
+.mat-form-field {
+    padding: 0;
+}
+
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary{
+    background-color: #B30011;
+}
