@@ -13,7 +13,7 @@ import { ResetPasswordComponent } from './feature/reset-password/reset-password.
 import { ForgotPasswordComponent } from './feature/forgot-password/forgot-password.component';
 import { DoubleAuthenticationComponent } from './feature/double-authentication/double-authentication.component';
 import { RouterModule } from '@angular/router';
-import { ComponentModule } from './shared/components/component.module';
+
 import { HomeComponent } from './feature/home/home.component';
 import { CreateComponent } from './feature/user/create/create.component';
 import { EditComponent } from './feature/user/edit/edit.component';
@@ -38,7 +38,7 @@ import { LayaoutComponent } from './shared/components/layaout/layaout.component'
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ComponentModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
