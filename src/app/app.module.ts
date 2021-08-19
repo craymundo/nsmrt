@@ -18,6 +18,7 @@ import { HomeComponent } from './feature/home/home.component';
 import { CreateComponent } from './feature/user/create/create.component';
 import { EditComponent } from './feature/user/edit/edit.component';
 import { LayaoutComponent } from './shared/components/layaout/layaout.component';
+import { InterceptorService } from './core/services/interceptor.service';
 
 @NgModule({
   declarations: [
